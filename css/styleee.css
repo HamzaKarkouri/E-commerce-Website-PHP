@@ -1,0 +1,157 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+   
+      overflow: hidden;
+      background-color: rgba(102, 79, 173, 0.119);
+  }
+  .img1 .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  .img1{
+      position: relative;
+      margin-top: 12%;
+      
+      width:100% ;
+      height:70% ;
+  }
+.container1{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+   
+}
+
+.container2{
+    position: relative;
+    margin-top: 15%;
+    
+}
+#navbarNavAltMarkup{
+    position: relative;
+    left: 40%;
+}
+.nav-link{
+    position: relative;
+    
+}
+.img1{
+    position: relative;
+    top: 50%;
+}
+.button11{
+    position: relative;
+  margin-left: 30%;
+  display: flex;
+}
+.button1{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    background-color: #47b2e4;
+    color: white;
+    
+}
+.button1:hover{
+    background-color: #209dd8;
+    color: white;
+}
+.a{
+    text-decoration: none;
+}
+.navbar-nav{
+    width: 60%;
+}
+.nav-link{
+    
+    margin-left: 3%;
+}
+
+.about{
+    width: 100%;
+    
+}
+.about1{
+  position: relative;  
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.h1{
+    text-align: center;
+}
+.p{
+    position: relative;
+    margin-top: 3%;
+    display: flex;
+}
+.p2{
+    position: relative;
+    margin-left: 4%;
+}
+.btn-learn-more {
+    position: relative;
+    margin-bottom: 5%;
+    margin-left: 41%;
+  
+    font-weight: 500;
+    font-size: 14px;
+    height: 1%;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #47b2e4;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    
+    border: 2px solid #47b2e4;
+  }
+  .btn-learn-more:hover {
+    background: #47b2e4;
+    color: #fff;
+    text-decoration: none;
+  }
+  .services{
+    width: 100%;
+    
+    background-color: #5d13bd18;
+  }
+  .cards1{
+      position: relative;
+      margin-top: 5%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .mb-3{
+      position: relative;
+      margin-left: 3%;
+  }
+  .service1{
+      text-align: center;
+      margin-left:5% ;
+  }
+
+
+
+
+
+
+  @media (max-width: 500px){
+    .p{
+       
+        display: ;
+    }
+  }

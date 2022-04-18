@@ -126,7 +126,8 @@
   }
   .services{
     width: 100%;
-    
+    text-align: center;
+      padding: 5%;
     background-color: #5d13bd18;
   }
   .cards1{
@@ -138,10 +139,44 @@
   .mb-3{
       position: relative;
       margin-left: 3%;
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   }
-  .service1{
-      text-align: center;
-      margin-left:5% ;
+  .mb-3:hover{
+    transform: scale(1.05);
+  }
+  .cta {
+    background: linear-gradient(rgba(52, 40, 90, 0.9), rgba(47, 40, 90, 0.9)), url("../images/shop.jpeg") fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+  }
+  .cta h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .cta p {
+    color: #fff;
+  }
+  .cta .cta-btn {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .cta .cta-btn:hover {
+    background: #47b2e4;
+    border: 2px solid #47b2e4;
+  }
+  
+  a{
+      text-decoration: none;
   }
 
 
@@ -150,8 +185,5 @@
 
 
   @media (max-width: 500px){
-    .p{
-       
-        display: ;
-    }
+    
   }

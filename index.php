@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    
     
    
    
-    <link rel="icon" type="image/png" href="../images/logoicon.png" />
+    <link rel="icon" type="image/png" href="./images/logoicon.png" />
     <title class="title2">AQUA INSTAL EQUIPEMENT</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
   <a class="navbar-brand" href="index.php">
-      <img src="../images/logo2.png" alt="" width="230" height="60">
+      <img src="./images/logo2.png" alt="" width="230" height="60">
     </a>
     
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -42,7 +42,7 @@
   <button type="button" class="btn-close btn-close-white text-reset btn2" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
    
   </div>
-  <img class="logocanvas" src="../images/logo5.png" width="150px" height="220px">
+  <img class="logocanvas" src="./images/logo5.png" width="150px" height="220px">
   <div class="offcanvas-body">
   <div class="navcanvas">
     <p class="fs-1 navcanvas1"><a href="index.php" class="text-white text-decoration-none " >Acceuil</a></p>
@@ -66,7 +66,7 @@
 </div>
 <div >
   
-          <video src="../images/video1.mp4" muted loop autoplay class="img1" ></video>
+          <video src="./images/video1.mp4" muted loop autoplay class="img1" ></video>
         </div>
 </section>
 <section class="about">
@@ -77,7 +77,7 @@
 <div class="col-lg-3 cta-btn-container text-center">
 <a class="a" href="#contact"><div class="button1">Découvrez notre catalogue</div></a>
       </div>
-<img src="../images/photo2.jpeg" class="rounded img-fluid aboutphoto" alt="...">
+<img src="./images/photo2.jpeg" class="rounded img-fluid aboutphoto" alt="...">
 </div>
 
 
@@ -107,15 +107,15 @@
     <div class="row" data-aos="zoom-in">
 
       <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="img11" onmouseover="color(11)" onmouseleave="grey(11)">
-        <img src="../images/onee.jpg" class="img-fluid" alt="" >
+        <img src="./images/onee.jpg" class="img-fluid" alt="" >
       </div>
 
       <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="img12" onmouseover="color(12)" onmouseleave="grey(12)">
-        <img src="../images/arep.png" class="img-fluid" alt="">
+        <img src="./images/arep.png" class="img-fluid" alt="">
       </div>
 
       <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="img13" onmouseover="color(13)" onmouseleave="grey(13)">
-        <img src="../images/commune.png" class="img-fluid" alt="">
+        <img src="./images/commune.png" class="img-fluid" alt="">
       </div>
 
     </div>
@@ -205,7 +205,7 @@
     </div>
 
   </div>
-</section><img src="../images/tope3.png" onclick="topFunction()" id="myBtn" title="Go to top" width="54px" height="54px">
+</section><img src="./images/tope3.png" onclick="topFunction()" id="myBtn" title="Go to top" width="54px" height="54px">
 <footer id="footer">
   
 
@@ -224,7 +224,7 @@
 </footer>
 
 
-<script src="../js/index.js"></script>
+<script src="./js/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>

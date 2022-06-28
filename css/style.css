@@ -199,12 +199,14 @@ h1{
   }
   .mb-3{
       position: relative;
-      margin-left: 3%;
+      margin-left: 5%;
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   }
   .mb-3:hover{
     transform: scale(1.05);
   }
+
+  
   .cta {
     background: linear-gradient(rgba(52, 40, 90, 0.9), rgba(47, 40, 90, 0.9)), url("../images/photo.jpeg") fixed ;
     background-size: cover;
@@ -622,6 +624,7 @@ float: left;
   }
   #all{
     display: block;
+    
   }
   .app{
     display: flex;
@@ -845,4 +848,8 @@ float: left;
       margin-left: 0%;
     }
      
+  }
+
+  #all1, #all2,#all3,#all4{
+    border: 2px solid #47b2e4;
   }

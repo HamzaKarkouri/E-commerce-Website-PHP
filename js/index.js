@@ -9,62 +9,48 @@ function all1(){
   var all1 = document.getElementById("all1");
   var all2 = document.getElementById("all2");
   var all3 = document.getElementById("all3");
-  var all4 = document.getElementById("all4");
+ 
   all1.classList.add("filter-active");
   all2.classList.remove("filter-active");
   all3.classList.remove("filter-active");
-  all4.classList.remove("filter-active");
+
   document.getElementById("all").style.display = "block";
   document.getElementById("app").style.display = "none";
   document.getElementById("cardd").style.display = "none";
-  document.getElementById("web").style.display = "none";
+  
   
 }
 function all2(){
   var all1 = document.getElementById("all1");
   var all2 = document.getElementById("all2");
   var all3 = document.getElementById("all3");
-  var all4 = document.getElementById("all4");
+ 
   all2.classList.add("filter-active");
   all1.classList.remove("filter-active");
   all3.classList.remove("filter-active");
-  all4.classList.remove("filter-active");
+
   document.getElementById("app").style.display = "block";
   document.getElementById("all").style.display = "none";
   document.getElementById("cardd").style.display = "none";
-  document.getElementById("web").style.display = "none";
+
   
 }
 function all3(){
   var all1 = document.getElementById("all1");
   var all2 = document.getElementById("all2");
   var all3 = document.getElementById("all3");
-  var all4 = document.getElementById("all4");
+  
   all3.classList.add("filter-active");
   all2.classList.remove("filter-active");
   all1.classList.remove("filter-active");
-  all4.classList.remove("filter-active");
+
   document.getElementById("cardd").style.display = "block";
   document.getElementById("app").style.display = "none";
   document.getElementById("all").style.display = "none";
-  document.getElementById("web").style.display = "none";
+  
   
 }
-function all4(){
-  var all1 = document.getElementById("all1");
-  var all2 = document.getElementById("all2");
-  var all3 = document.getElementById("all3");
-  var all4 = document.getElementById("all4");
-  all4.classList.add("filter-active");
-  all2.classList.remove("filter-active");
-  all3.classList.remove("filter-active");
-  all1.classList.remove("filter-active");
-  document.getElementById("web").style.display = "block";
-  document.getElementById("app").style.display = "none";
-  document.getElementById("cardd").style.display = "none";
-  document.getElementById("all").style.display = "none";
-  
-}
+
 var n;
 
 
